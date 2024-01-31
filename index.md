@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Faculty of ITC, University of Twente"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Langezijds LA 2405"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Langezijds LA 2405, Hallenweg 8, Enschede"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "NL"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "52.238"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -53,7 +53,7 @@ remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `
 fields in `_config.yml`
 </div>
 
-{% comment %}
+{% endcomment %}
 8< ============================= until here ==================
 {% endcomment %}
 {% endcomment %}
@@ -111,7 +111,7 @@ INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
 the pitch.
-{% endcomment %}
+
 
 <p>
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
@@ -136,7 +136,7 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
-
+{% endcomment %}
 {% comment %}
 AUDIENCE
 
