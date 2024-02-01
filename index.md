@@ -56,7 +56,6 @@ fields in `_config.yml`
 {% endcomment %}
 8< ============================= until here ==================
 {% endcomment %}
-{% endcomment %}
 
 
 {% comment %}
