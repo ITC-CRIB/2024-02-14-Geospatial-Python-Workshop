@@ -19,7 +19,6 @@ email: ["j.h.gohil@utwente.nl","s.girgin@utwente.nl"]    # boxed, comma-separate
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
-
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
@@ -35,6 +34,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 8< ============= For a workshop delete from here =============
 For a workshop please delete the following block until the next dashed-line
+{% endcomment %}
 
 
 <div class="alert alert-danger">
@@ -52,7 +52,7 @@ remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `
 fields in `_config.yml`
 </div>
 
-{% endcomment %}
+{% comment %}
 8< ============================= until here ==================
 {% endcomment %}
 
@@ -109,7 +109,7 @@ INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
 the pitch.
-
+{% endcomment %}
 
 <p>
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
@@ -134,7 +134,7 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
-{% endcomment %}
+
 {% comment %}
 AUDIENCE
 
@@ -298,12 +298,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-{% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to only UT students and staff
+    This workshop is open to ....
 </p>
+{% endcomment %}
 
 <hr/>
 
