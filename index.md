@@ -413,12 +413,12 @@ Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list 
 Edit/replace the text above if you want to include a schedule table.
 See the contents of the _includes/custom-schedule.html file for an example of
 how one of these schedule tables is constructed.
-{% endcomment %}
+
 
 {% if site.pilot %}
 The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. Please [contact the workshop organisers](#contact) if you would like more information about the planned schedule.
 {% endif %}
-
+{% endcomment %}
 <hr/>
 
 
@@ -437,7 +437,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in this
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -454,7 +454,15 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+<h3> Software Setup </h3>
+<p>To be able to follow this workshop, a few setup steps are required. Please follow the <a href = "https://carpentries-incubator.github.io/geospatial-python/index.html#software-setup">Setup Instruction</a>. setup instructions in preparation for the workshop.</p>
 
+<p>This instruction will help you to:</p>
+<ul>
+    <li>download the data required in this workshop</li>
+    <li>install the required software packages to this workshop</li>
+</ul>
+<b>Please make sure you have followed this instruction to setup in advance.</b>
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -472,7 +480,7 @@ to include the relevant installation instructions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
-{% endcomment %}
+
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -485,3 +493,4 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% endcomment %}
