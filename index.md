@@ -34,7 +34,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 8< ============= For a workshop delete from here =============
 For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
+
 
 
 <div class="alert alert-danger">
@@ -54,6 +54,7 @@ fields in `_config.yml`
 
 {% comment %}
 8< ============================= until here ==================
+{% endcomment %}
 {% endcomment %}
 
 
