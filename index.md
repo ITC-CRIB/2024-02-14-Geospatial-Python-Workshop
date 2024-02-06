@@ -113,28 +113,18 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
-</p>
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
+<strong>Python</strong> is one of the most popular programming languages for data science and analytics, with a large and steadily growing community in the field of Earth and Space Sciences. In this workshop, we will help participants with a working knowledge of Python to familiarize with the world of geospatial raster and vector data. We will introduce a set of tools from the Python ecosystem and show how these can be used to carry out practical geospatial data analysis tasks. In particular, we will consider satellite images and public geo-datasets and demonstrate how these can be opened, explored, manipulated, combined, and visualized using Python.
 
-{% if site.pilot %}
-This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
-{% endif %}
+This workshop organized by the Center of Expertise in Big Geodata Science (CRIB) will cover the following aspects of geospatial data processing:
+<ol>
+    <li>Basics of raster and vector data and coordinate reference systems (CRSs)</li>
+    <li>Access satellite imagery using Python</li>
+    <li>Read and visualize and process raster/vector data</li>
+    <li>Data analysis with the combination of raster and vector data</li>
+    <li>Parallel computation for geospatial data</li>
+</ol>
+</p>
+
 
 {% comment %}
 AUDIENCE
