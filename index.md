@@ -116,13 +116,13 @@ the pitch.
 <strong>Python</strong> is one of the most popular programming languages for data science and analytics, with a large and steadily growing community in the field of Earth and Space Sciences. In this workshop, we will help participants with a working knowledge of Python to familiarize with the world of geospatial raster and vector data. We will introduce a set of tools from the Python ecosystem and show how these can be used to carry out practical geospatial data analysis tasks. In particular, we will consider satellite images and public geo-datasets and demonstrate how these can be opened, explored, manipulated, combined, and visualized using Python.
 
 This workshop organized by the Center of Expertise in Big Geodata Science (CRIB) will cover the following aspects of geospatial data processing:
-<ol>
+<ul>
     <li>Basics of raster and vector data and coordinate reference systems (CRSs)</li>
     <li>Access satellite imagery using Python</li>
     <li>Read and visualize and process raster/vector data</li>
     <li>Data analysis with the combination of raster and vector data</li>
     <li>Parallel computation for geospatial data</li>
-</ol>
+</ul>
 </p>
 
 
