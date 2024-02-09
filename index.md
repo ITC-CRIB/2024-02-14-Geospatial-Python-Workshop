@@ -360,6 +360,8 @@ change the value of `carpentry` to `incubator`.
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
 {% endcomment %}
+<p>Please be sure to complete these surveys before and after the workshop.</p>
+
 <p><a href="https://www.itc.nl/about-itc/centres-of-expertise/big-geodata/surveys/pre-workshop-form-geospatial-python-2024-02-14/">Pre-workshop Survey</a></p>
 <p><a href="https://www.itc.nl/about-itc/centres-of-expertise/big-geodata/surveys/post-workshop-form-geospatial-python-2024-02-14/">Post-workshop Survey</a></p>
 
