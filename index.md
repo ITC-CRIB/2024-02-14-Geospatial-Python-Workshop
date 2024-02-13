@@ -337,7 +337,10 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 <hr/>
 {% endif %}
 
-
+<h2 id="collaborative_notes">Collaborative Notes</h2>
+<p>Collaborative Document for Day 1:<a href="https://crib.utwente.nl/codimd/2024-02-14-Geospatial-Python-Workshop-Day1?view">Link</a></p> 
+<p>Collaborative Document for Day 2:<a href="https://crib.utwente.nl/codimd/2024-02-14-Geospatial-Python-Workshop-Day2?view">Link</a></p> 
+<hr/>
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 
